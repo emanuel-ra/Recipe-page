@@ -11,6 +11,7 @@ export default {
         "light-grey": "hsl(30, 18%, 87%)",
         "wenge-brown": "hsl(30, 10%, 34%)",
         "dark-charcoal": "hsl(24, 5%, 18%)",
+        nutmeg: "hsl(14, 45%, 36%)",
       },
     },
   },

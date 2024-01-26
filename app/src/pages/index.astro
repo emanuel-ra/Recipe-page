@@ -27,12 +27,12 @@ const NUTRITIONS = [
 ];
 ---
 
-<Layout title="Recipe  page">
-  <main class="w-dvw h-dvh bg-transparent flex justify-center items-center">
-    <Card class="w-2/4 p-4 gap-y-6 flex flex-col rounded-xl">
-      <Image class={``} src={imgOmelette} alt={`Omelette`} />
+<Layout title="Recipe page">
+  <main class="w-dvw min-h-screen bg-transparent flex justify-center lg:py-10">
+    <Card class="lg:w-2/4 p-4 gap-y-6 flex flex-col rounded-xl shadow-lg">
+      <Image class={`rounded-lg`} src={imgOmelette} alt={`Omelette`} />
 
-      <h1 class="text-4xl">Simple Omelette Recipe</h1>
+      <h1 class="text-4xl text-wenge-brown">Simple Omelette Recipe</h1>
       <p class="text-base text-pretty">
         An easy and quick dish, perfect for any meal. This classic omelette
         combines beaten eggs cooked to perfection, optionally filled with your
@@ -99,7 +99,7 @@ const NUTRITIONS = [
       </Article>
 
       <Article title="Nutrition">
-        <p>
+        <p class="text-wenge-brown text-pretty">
           The table below shows nutritional values per serving without the
           additional fillings.
         </p>
@@ -112,15 +112,15 @@ const NUTRITIONS = [
             {
               NUTRITIONS.map((nutrition) => (
                 <tr>
-                  <td class="p-4">{nutrition.title}</td>
-                  <td class="p-4">{nutrition.value}</td>
+                  <td class="py-4 px-10 text-wenge-brown font-semibold">{nutrition.title}</td>
+                  <td class="py-4 px-10 text-nutmeg font-bold">{nutrition.value}</td>
                 </tr>
               ))
             }
           </tbody>
         </table>
       </Article>
-      <hr />
+     
     </Card>
   </main>
 </Layout>
