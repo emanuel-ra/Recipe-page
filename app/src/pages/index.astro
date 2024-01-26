@@ -1,8 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
-import imgOmelette from "../assets/images/image-omelette.jpeg";
-import { Image, imageConfig } from "astro:assets";
+import { Image } from "astro:assets";
 import Article from "../components/Article.astro";
 import ListItems from "../components/ListItems.astro";
 import List from "../components/List.astro";
@@ -30,7 +29,7 @@ const NUTRITIONS = [
 <Layout title="Recipe page">
   <main class="w-dvw min-h-screen bg-transparent flex justify-center lg:py-10">
     <Card class="lg:w-2/4 p-4 gap-y-6 flex flex-col rounded-xl shadow-lg">
-      <Image class={`rounded-lg`} src={imgOmelette} alt={`Omelette`} />
+      <Image class={`rounded-lg`} width={300} height={300} src={`https://raw.githubusercontent.com/emanuel-ra/Recipe-page/main/app/src/assets/images/image-omelette.jpeg`} alt={`Omelette`} />
 
       <h1 class="text-4xl text-wenge-brown">Simple Omelette Recipe</h1>
       <p class="text-base text-pretty">
