@@ -17,8 +17,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./screenshot/MacbookPro.webp)
-![](./screenshot/iPhone12Pro.webp)
+![](./screenshot/MacbookPro-mock.webp)
+![](./screenshot/iPhone12Pro-mock.webp)
 
 
 ### Links
